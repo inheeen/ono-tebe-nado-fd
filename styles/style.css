@@ -1,17 +1,19 @@
 body {
-  font-family: 'Raleway';
+  font-family: 'Raleway'Arial, Helvetica, sans-serif;
   font-size: 18px;
   color: white;
 }
 
 .title {
-  font-family: 'Raleway';
+  font-family: 'Raleway', Arial, Helvetica, sans-serif; 
   text-transform: uppercase;
   font-weight: bold;
 }
 
 .overlay {
   position: absolute;
+  top: 0;
+  left: 0;
   background-color: rgba(0, 0, 0, 0.6);
   background-size: contain;
   z-index: 3;
@@ -199,13 +201,13 @@ header {
   background-size: cover;
   background-position: center;
 }
-.card1 {
+.film-card {
   background-image: url(../images/card-lot-01.jpg);
 }
-.card2 {
+.book-card {
   background-image: url(../images/card-lot-02.jpg);
 }
-.card3 {
+.paint-card {
   background-image: url(../images/card-lot-03.jpg);
 }
 
@@ -255,11 +257,11 @@ header {
   font-size: 20px;
   color: black;
   line-height: 24px;
+  max-width: 680px;
 }
 
 .top-article {
   margin-bottom: 24px;
-  max-width: 680px;
 }
 
 footer {
